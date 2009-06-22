@@ -74,7 +74,7 @@ Create a new deployment using <path> as the file for the SQLite database, and <s
 The schema argument can be in the form of a Template Toolkit document.
 
 The database will NOT be created until you ask to C<< ->connect >>, ask for C<< ->information >>, or manually C<< ->deploy >>. To do creation on construction, pass
-C<< create => 1 >> argument
+C<< create => 1 >> as an argument
 
 DBIx::SQLite::Deploy will not deploy over an existing database (the file exists and has non-zero size)
 

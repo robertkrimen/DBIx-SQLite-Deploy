@@ -65,7 +65,7 @@ USAGE
 
     The database will NOT be created until you ask to "->connect", ask for
     "->information", or manually "->deploy". To do creation on construction,
-    pass "create => 1" argument
+    pass "create => 1" as an argument
 
     DBIx::SQLite::Deploy will not deploy over an existing database (the file
     exists and has non-zero size)
